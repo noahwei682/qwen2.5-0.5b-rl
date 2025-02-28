@@ -2,6 +2,18 @@
 
 GRPO Training based on Qwen2.5 0.5B 
 
+# usage
+
+```
+source activate base
+pip install modelscope
+pip install datasets
+pip install addict
+python3 -m pip install trl
+python3 -m pip install tensorboard
+pip install -U vllm
+```
+
 ## hardware
 
 * NVIDIA A10 24GB x 1
