@@ -16,7 +16,7 @@ pip install -U vllm
 
 # run
 ```
-torchrun --nproc_per_node=2 --num_processors=number of cards-1  --master_port 1234 demo.py
+torchrun --nproc_per_node=2 --num_processors=number of cards-1  --master_port 1234 grpo_multi_gpu_revise.py
 ```
 
 
