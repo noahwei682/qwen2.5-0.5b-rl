@@ -14,6 +14,12 @@ python3 -m pip install tensorboard
 pip install -U vllm
 ```
 
+# run
+```
+torchrun --nproc_per_node=2 --num_processors=number of cards-1  --master_port 1234 demo.py
+```
+
+
 ## hardware
 
 * NVIDIA A10 24GB x 1
