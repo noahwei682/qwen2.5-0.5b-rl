@@ -58,7 +58,7 @@ pip install -U -q math_verify==0.3.3
 
 # run
 ```
-torchrun --nproc_per_node=2 --num_processors=number of cards-1  --master_port 1234 grpo_multi_gpu_revise.py
+torchrun --nproc_per_node=2 --num_processors=4  --master_port 1234 /home/aiscuser/qwen2.5-0.5b-rl/Untitled-2.py
 ```
 
 
