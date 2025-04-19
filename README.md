@@ -13,6 +13,7 @@ python3 -m pip install trl
 python3 -m pip install tensorboard
 pip install -U vllm
 pip install typing_extensions
+pip install modelscope==1.9.5
 ```
 
 # run
