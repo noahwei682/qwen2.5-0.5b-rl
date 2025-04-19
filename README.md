@@ -17,6 +17,13 @@ pip install modelscope==1.9.5
 pip uninstall -y datasets fsspec
 pip install datasets==2.12.0 fsspec==2023.9.2
 pip install typing_extensions
+
+pip install -U -q transformers==4.47.1
+pip install -U -q trl==0.14.0
+pip install -U -q datasets==3.2.0
+pip install -U -q peft==0.14.0
+pip install -U -q accelerate==1.2.1
+pip install -U -q math_verify==0.3.3
 ```
 
 # run
