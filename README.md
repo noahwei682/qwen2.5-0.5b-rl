@@ -4,6 +4,36 @@ GRPO Training based on Qwen2.5 0.5B
 
 # usage
 
+
+```
+conda create -n GRPO python=3.10
+conda activate GRPO
+pip install modelscope==1.9.5  # This will pull compatible datasets
+pip install datasets==2.12.0   # Compatible with modelscope
+pip install addict
+pip install transformers==4.51.1  # Upgrade transformers to meet vllm's requirement
+python3 -m pip install trl
+python3 -m pip install tensorboard
+pip install -U vllm
+pip install typing_extensions
+pip install fsspec==2023.9.2
+
+# Uninstall incompatible datasets and fsspec if necessary
+pip uninstall -y datasets fsspec
+
+# Reinstall compatible versions
+pip install datasets==2.12.0 fsspec==2023.9.2
+
+# Install other dependencies
+pip install -U -q trl==0.14.0
+pip install -U -q peft==0.14.0
+pip install -U -q accelerate==1.2.1
+pip install -U -q math_verify==0.3.3
+```
+
+
+
+
 ```
 source activate base
 pip install modelscope
