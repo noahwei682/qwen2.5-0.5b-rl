@@ -31,6 +31,7 @@ pip install -U -q accelerate==1.2.1
 pip install -U -q math_verify==0.3.3
 pip install sentence-transformers
 pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT.git
+pip install tyro
 ```
 
 
