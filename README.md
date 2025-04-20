@@ -11,6 +11,8 @@ conda activate GRPO
 pip install modelscope==1.9.5  # This will pull compatible datasets
 pip install datasets==2.12.0   # Compatible with modelscope
 pip install addict
+pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT.git
+pip install tyro
 pip install transformers==4.51.1  # Upgrade transformers to meet vllm's requirement
 python3 -m pip install trl
 python3 -m pip install tensorboard
@@ -30,8 +32,6 @@ pip install -U -q peft==0.14.0
 pip install -U -q accelerate==1.2.1
 pip install -U -q math_verify==0.3.3
 pip install sentence-transformers
-pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT.git
-pip install tyro
 ```
 
 
