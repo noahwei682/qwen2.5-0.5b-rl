@@ -35,6 +35,10 @@ pip install sentence-transformers
 pip install --upgrade trl
 pip install flash-attn==2.5.2 --no-build-isolation
 pip install ipdb
+
+pip uninstall -y wandb pydantic
+pip install pydantic==1.10.8  # 使用较老的稳定版本
+pip install wandb
 ```
 
 
