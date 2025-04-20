@@ -29,6 +29,7 @@ pip install -U -q trl==0.14.0
 pip install -U -q peft==0.14.0
 pip install -U -q accelerate==1.2.1
 pip install -U -q math_verify==0.3.3
+pip install sentence-transformers
 ```
 
 
