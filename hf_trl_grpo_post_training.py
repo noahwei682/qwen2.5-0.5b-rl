@@ -82,7 +82,7 @@ if hasattr(torch, "_C"):
     if hasattr(torch._C, "_set_dtensor_auto_to_dtensor"):
         torch._C._set_dtensor_auto_to_dtensor(False)
 
-model_id = "Qwen/Qwen2-0.5B-Instruct"
+model_id = "lmms-lab/llava-onevision-qwen2-7b-ov"
 if is_distributed:
     # For distributed training, don't use device_map="auto"
     model = AutoModelForCausalLM.from_pretrained(
