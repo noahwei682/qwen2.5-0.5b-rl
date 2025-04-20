@@ -33,6 +33,8 @@ pip install -U -q accelerate==1.2.1
 pip install -U -q math_verify==0.3.3
 pip install sentence-transformers
 pip install --upgrade trl
+pip install flash-attn==2.5.2 --no-build-isolation
+pip install ipdb
 ```
 
 
